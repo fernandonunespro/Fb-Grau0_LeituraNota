@@ -1,0 +1,40 @@
+<!-- Programa para Leitura de Notas -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leitura Nota</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div class="general">
+        <form>
+            <h3>Leitura de Notas</h3>
+                <div>
+                    <label for="nota1">Digite sua 1 Nota</label>
+                    <input type="number" id="nota1" name="nota1"/>
+                </div>
+                
+                <div>
+                    <label for="nota2">Digite sua 2 Nota</label>
+                    <input type="number" id="nota2" name="nota2"/>
+                </div>
+
+                <div>
+                    <label for="resultado">Resultado</label>
+                    <input type="text" id="resultado"/>
+                </div>
+
+                <button onclick="verificarNot(event)">Calcular</button>
+                <p id="verificar"></p>
+
+        </form>
+    </div>
+    
+</body>
+</html>
